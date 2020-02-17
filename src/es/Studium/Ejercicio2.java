@@ -20,7 +20,8 @@ public class Ejercicio2
 		catch(ArithmeticException err)
 		{
 			System.out.println("El divisor no puede ser 0");
-		}catch(InputMismatchException err)
+		}
+		catch(InputMismatchException err)
 		{
 			System.out.println("No se ha introducido un número entero...");
 		}
